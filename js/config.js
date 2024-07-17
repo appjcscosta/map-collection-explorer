@@ -78,8 +78,8 @@ var Config = {
     */
     "BASEMAP_WEB_MAP_ID": "67372ff42cd145319639a99152b15bc3",
     /* default coordinates and zoom level */
-    "BASEMAP_INIT_LAT": 29.939833,
-    "BASEMAP_INIT_LNG": -90.076046,
+    "BASEMAP_INIT_LAT": 41.939833,
+    "BASEMAP_INIT_LNG": -8.076046,
     "BASEMAP_INIT_ZOOM": 12,
 
     /**************************************************************************
@@ -194,7 +194,7 @@ var Config = {
     "IMAGE_SERVER_JSON": "?culture=en&f=json&token=",
 
     /* Image service */
-    "IMAGE_SERVER": "https://utility.arcgis.com/usrsvcs/servers/88d12190e2494ce89374311800af4c4a/rest/services/USGS_Historical_Topographic_Maps/ImageServer",
+    "IMAGE_SERVER": "https://utility.arcgis.com/usrsvcs/servers/d6196f4cf95e4be0abd59a94af0d4816/rest/services/CartaGeologiaValongo/PaleoMap/ImageServer",
     /* outfields */
     "OUTFIELDS": ['*'],
     /* WHERE clause */
@@ -206,23 +206,23 @@ var Config = {
     "QUERY_GEOMETRY": "MAP_POINT",
 
     /* USGS (temporary) */
-    "DOWNLOAD_PATH": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/",
+    "DOWNLOAD_PATH": "https://www.igeoe.pt",
 
     /* Attribute Fields */
     /* OBJECTID -- DO NOT modify this field --- */
     "ATTRIBUTE_OBJECTID": "OBJECTID",
     /* Name of map displayed */
-    "ATTRIBUTE_MAP_NAME": "Map_Name",
+    "ATTRIBUTE_MAP_NAME": "Name",
     /* Date field (UTC format) */
-    "ATTRIBUTE_DATE": "DateCurren",
+    "ATTRIBUTE_DATE": "Ano",
     /* Scale field */
-    "ATTRIBUTE_SCALE": "Map_Scale",
+    "ATTRIBUTE_SCALE": "HighPS",
     /* Tooltip content */
     "TOOLTIP_CONTENT": "",
     /* Download map link */
-    "ATTRIBUTE_DOWNLOAD_LINK": "DownloadG",
+    "ATTRIBUTE_DOWNLOAD_LINK": "",
     /* Map citation <String> or <attribute field> */
-    "ATTRIBUTE_CITATION": "Citation",
+    "ATTRIBUTE_CITATION": "Periodo",
 
     /**************************************************************************
      *
